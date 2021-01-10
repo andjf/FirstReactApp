@@ -14,7 +14,7 @@ function App() {
     <div className="app">
       {
         users.map(user => (<Tweet name={user.name} message={user.message} likes={user.likes} />))
-      };
+      }
     </div>
   );
 }
